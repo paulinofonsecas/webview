@@ -15,7 +15,6 @@ class HomeState extends State<Home> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _c = TextEditingController();
   }
