@@ -13,15 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Completer<WebViewController> _controller = Completer<WebViewController>();
-  TextEditingController _c;
-
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    _c = TextEditingController();
-  }
+  
 
   @override
   Widget build(BuildContext context) {
